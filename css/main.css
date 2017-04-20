@@ -1,0 +1,84 @@
+/*
+* @Author: ml
+* @Date:   2017-04-19 18:53:03
+* @Last Modified by:   ml
+* @Last Modified time: 2017-04-19 22:44:02
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	background-color: rgba(98, 128, 253, .8);
+	padding: 50px;
+	margin: auto;
+	box-sizing: border-box;
+	min-width: 800px;
+	min-height: 300px;
+}
+#font {
+	padding: 0 50px;
+	position: relative;
+}
+#font p{
+	display: inline;
+	font-family: Times;
+	font-size: 20px;
+	position: absolute;
+}
+
+#font #left {
+	left: 100px;
+}
+
+#font #right {
+	right: 100px;
+}
+#font #right #times {
+	color: rgba(255, 255, 255, .8);
+	margin: 0 5px;
+	font-size: 25px;
+}
+
+#img {
+	padding: 40px 100px;
+	position: relative;
+}
+#img #tupian1, #img #tupian2, #img #tupian3 {
+	float: left;
+	width: 33.33%;
+	height: 220px;
+	text-align: center;
+}
+#img img {
+	width: 130px;
+	height: 120px;
+	margin: 50px;
+}
+#img::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+#btn {
+	padding: 10px 100px;
+	position: relative;
+	height: 42px;
+}
+#btn p{
+	font-size: 28px;
+	position: absolute;
+	right: 250px;
+	color: white;
+	padding: 10px 25px;
+	border: 2px solid #2B2BD5;
+	-webkit-webkit-border-radius: 2px;
+	-moz-webkit-border-radius: 2px;
+	-ms-webkit-border-radius: 2px;
+	-o-webkit-border-radius: 2px;
+	border-radius: 5px;
+	background-color: #2B2BD5;
+}
+
