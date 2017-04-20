@@ -1,5 +1,6 @@
 # JianDaoShiTouBu
-来自https://github.com/baidu-ife/ife/tree/master/2015_summer的一道剪刀石头布游戏
+来自https://github.com/baidu-ife/ife/tree/master/2015_summer
+的一道剪刀石头布游戏
 使用HTML+CSS+JavaScript
 
 > 开始界面：
