@@ -74,10 +74,10 @@ html, body{
 	color: white;
 	padding: 10px 25px;
 	border: 2px solid #2B2BD5;
-	-webkit-webkit-border-radius: 2px;
-	-moz-webkit-border-radius: 2px;
-	-ms-webkit-border-radius: 2px;
-	-o-webkit-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
 	border-radius: 5px;
 	background-color: #2B2BD5;
 }
